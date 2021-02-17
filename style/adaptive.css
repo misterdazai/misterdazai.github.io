@@ -112,6 +112,7 @@ flex-direction: column;
 }
 .serv_item{
 	margin-top: 15px;
+	width: 100%;
 }
 .bottom_header_text{
 	padding: 40px 0;
@@ -135,7 +136,10 @@ iframe{
 .contact_icon{
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
+}
+.contact_icon .c-card{
+	width: 100%;
 }
 .contact_icon img{
 	margin: 10px;
@@ -231,6 +235,11 @@ iframe{
 .contact_icon img{
 	margin: 10px;
 }
-
+audio{
+	margin:0;
+}
+.music{
+	justify-content: center;
+}
 
 }

@@ -56,7 +56,6 @@ header{
 .bottom_header{
 	background-blend-mode: multiply;
 	background-image: url(../img/header-bg.jpg);
-	background-repeat: no-repeat;
 	position: relative;
 	height: 885px;
 	background-color: rgba(26,26,26,0.8);
